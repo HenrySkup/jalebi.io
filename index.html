@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Jalebi.io : Web-based explorations in CAD, CAM, and Machine Control">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Jalebi.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/HenrySkup/jalebi.io">View on GitHub</a>
+
+          <h1 id="project_title">Jalebi.io</h1>
+          <h2 id="project_tagline">Web-based explorations in CAD, CAM, and Machine Control</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/HenrySkup/jalebi.io/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/HenrySkup/jalebi.io/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="jalebiio" class="anchor" href="#jalebiio"><span class="octicon octicon-link"></span></a>Jalebi.io</h1>
+
+<p>Web-based explorations in CAD, CAM, and Machine Control</p>
+
+<p><img src="jalebi.png" alt="Jalebi.io"></p>
+
+<p><em>Main site to come soon.</em></p>
+
+<hr><h2>
+<a name="how-to-start-developing-now-space_invader" class="anchor" href="#how-to-start-developing-now-space_invader"><span class="octicon octicon-link"></span></a>How to Start Developing Now <img class="emoji" title=":space_invader:" alt=":space_invader:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f47e.png" height="20" width="20" align="absmiddle">
+</h2>
+
+<p>fork.</p>
+
+<hr><h2>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+
+<h3>
+<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h3>
+
+<p>to be written.</p>
+
+<h3>
+<a name="goals" class="anchor" href="#goals"><span class="octicon octicon-link"></span></a>Goals</h3>
+
+<p><em>platform parts</em></p>
+
+<ul>
+<li>Browser-based CAD</li>
+<li>Browser-based CAM (ie. tool-path computing)</li>
+<li>Browser-based Machine control</li>
+</ul><p><em>process (and indicators of success)</em></p>
+
+<ul>
+<li>Browser-centric :: low bar-or-entry, everyone has it, os agnostic etc.</li>
+<li>Run with or without concurrent internet access</li>
+<li>Littlest/Simplest install possible (none, ideally)</li>
+<li>Open-Source</li>
+<li>HTML5 &amp; Javascript based</li>
+<li>Ease of user customization via as many programming languages as is possible (ie. custom tool-path generation scripts, custom g-code/machine code generation scripts, etc.)</li>
+</ul><p><em>If a three-year-old can use it, and if en engineer wants to use it: we have done out job.</em></p>
+
+<h3>
+<a name="key-points--theorems" class="anchor" href="#key-points--theorems"><span class="octicon octicon-link"></span></a>Key Points &amp; Theorems</h3>
+
+<p>To date, the creation of any object or <em>thing</em> is molded -- for good and for bad -- by certain workflows or <em>toolchains</em>.  In our current age of computer based design and fabrication this process is dominated by CAD and CAM; each environment requires, at least, one unique base file formats, with several other supporting files.  This layering can cause much confusion as files, user environments, settings, etc all change at alarmingly high rates.  Additionally, these tools (CAD and CAM) are large, faceless programs very difficult to learn <em>and</em> master, and often heavily dictate one design style or methodology.</p>
+
+<p>Now is a time to break this paradigm or old.  We want to simplify this design procss by throwing away the unnecessary and getting out of each user's way, while giving more control to the end user to customize their own experience.</p>
+
+<h4>
+<a name="user-workflows" class="anchor" href="#user-workflows"><span class="octicon octicon-link"></span></a>User Workflows</h4>
+
+<pre><code>
+*Current Work Flow*            *Eventual Workflow*
+
+PreDigitalWork                    PreDigitalWork
+    ||                                  ||
+[via work/HCI]                          ||
+    ||                            [via work/HCI]
+    \/                                  ||
+   CAD                                  ||
+    ||                                  \/
+[.stl, .3dm, etc.]                Browser CAD/CAM
+    ||                                  ||
+    \/                                  ||
+   CAM                                  ||
+    ||                            [motor controle]
+[.gCode, .nc]                           ||
+    ||                                  ||
+    \/                                  \/
+Machine                            Machine/moters
+(internal driver logic)
+</code></pre>
+
+<h4>
+<a name="the-web-browser" class="anchor" href="#the-web-browser"><span class="octicon octicon-link"></span></a>The Web Browser</h4>
+
+<p>Think of the application that is on nearly every device, every OS, and is used by just about every computer user.  This would be the web browser.  (And, increasingly within this category, this has been the Google Chrome browser.)  The web browser is an app accessible to anyone and everyone -- it has ease-of-use, it is free, it ise used to communicate, socialize, shop, learn, etc. -- it is familiar.  This is the key.  For a tool to be used (and loved) it has to be familiar, and there is no other app so familiar to so many different people.</p>
+
+<p>On top of this human-centirc consideration, as browsers have developed and web standards have solidified, they have become technologically advanced applications that can now do so much more than render text in semi-predicable ways.  Now they can compute things themselves, communicate with lots of different sources -- both local and non-local.  Browsers have legions of developers all around the world not only because of the economic incentives that the skill offers but because web development is highly accessible and, as stated before, robust.</p>
+
+<p>As websites have become web-apps, it has been noticed that the ability to continually (or at the very least highly regularly) communicate with central repositories is very advantageous.  Apps now only have to be downloaded and installed with two mouse clicks as opposed to the endless installs of the Sims which lasted <em>hours</em> and <em>hours</em> and required <em>so</em> many clearances and forms (and of course your parents we <strong>never</strong> there to do it). Also, web-apps are continually updated, they are never out-of-date (as long as they have a good team of developers and users behind them).  Adobe, Autodesk, and many other major software firms have noticed this fact and are currently transitioning to web-based (or web-enabled) platforms.</p>
+
+<p>Because of this, we have decided to use the web-browser -- specifically, Google Chrome -- as the container for this project.  Because we have committed to a web-app, we then have also committed to <code>JavaScript</code> being the base language and logical framework.</p>
+
+<hr><h3>
+<a name="credits-et-al" class="anchor" href="#credits-et-al"><span class="octicon octicon-link"></span></a>Credits, et al.</h3>
+
+<p>This project is a group effort, of course, but its development is centered out of FabLab CEPT (Ahmedabad, GJ, India).  We <em>really</em> want to encourage anyone, anywhere to join the team.</p>
+
+<h4>
+<a name="core-team" class="anchor" href="#core-team"><span class="octicon octicon-link"></span></a>Core Team</h4>
+
+<ul>
+<li>
+<a href="mailto:%20henryskup@gmail.com">Henry Skupniewicz</a> is the head of FabLab CEPT and design thinker; he is also a visiting faculty member at CEPT University and team member of the Motwani Jadeja Family Foundation.</li>
+<li>
+<a href="mailto:%20thobhanikishan@gmail.com">Kishan Thobhani</a> is a web-developer extrodinare focusing on the stuff you <em>see</em>.</li>
+<li>
+<a href="mailto:%20vibahv2211@gmail.com">Vibhav Srivastava</a> is a IIIT-H student and is interested in social conscious tech solutions.</li>
+</ul><h4>
+<a name="thanks" class="anchor" href="#thanks"><span class="octicon octicon-link"></span></a>Thanks</h4>
+
+<p>This project is indebted to the following for their various forms of support.</p>
+
+<ul>
+<li>The Motwani Jadeja Family Foundation</li>
+<li>CEPT University</li>
+<li>MIT</li>
+<li>The FabFoundation</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Jalebi.io maintained by <a href="https://github.com/HenrySkup">HenrySkup</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-54631705-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
