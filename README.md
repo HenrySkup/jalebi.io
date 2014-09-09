@@ -25,7 +25,7 @@ to be written.
 
 - Browser-based CAD
 - Browser-based CAM (ie. tool-path computing)
-- Browser-based Machine controle
+- Browser-based Machine control
 
 *process (and indicators of success)*
 
@@ -72,9 +72,9 @@ Machine                            Machine/moters
 
 Think of the application that is on nearly every device, every OS, and is used by just about every computer user.  This would be the web browser.  (And, increasingly within this category, this has been the Google Chrome browser.)  The web browser is an app accessible to anyone and everyone -- it has ease-of-use, it is free, it ise used to communicate, socialize, shop, learn, etc. -- it is familiar.  This is the key.  For a tool to be used (and loved) it has to be familiar, and there is no other app so familiar to so many different people.
 
-On top of this human-centirc consideration, as browsers have developed and webstandards have solidified, they have become technologically advanced applications that can now do so much more than render text in semi-predicable ways.  Now they can compute things themselves, communicate with lots of different sources -- both local and non-local.  Browsers have legions ofdevelopers all around the world not only because of the economic incentives that the skill offers but because web development is highly accessible and, as stated before, robust.
+On top of this human-centirc consideration, as browsers have developed and web standards have solidified, they have become technologically advanced applications that can now do so much more than render text in semi-predicable ways.  Now they can compute things themselves, communicate with lots of different sources -- both local and non-local.  Browsers have legions of developers all around the world not only because of the economic incentives that the skill offers but because web development is highly accessible and, as stated before, robust.
 
-As websites have become web-apps, it has been noticed that the ability to continulally (or at the very least highly regularly) communicate with central repositories is very advantageous.  Apps now only have to be downloaded and installed with two mouse clicks as opposed to the endless installs of the Sims which lasted *hours* and *hours* and required *so* many clearances and forms (and of course your parents we **never** there to do it). Also, web-apps are continually updated, they are never out-of-date (as long as they have a good team of developers and users behind them).  Adobe, Autodesk, and many other major software firms have noticed this fact and are currently transitioning to web-based (or web-enabled) platforms.
+As websites have become web-apps, it has been noticed that the ability to continually (or at the very least highly regularly) communicate with central repositories is very advantageous.  Apps now only have to be downloaded and installed with two mouse clicks as opposed to the endless installs of the Sims which lasted *hours* and *hours* and required *so* many clearances and forms (and of course your parents we **never** there to do it). Also, web-apps are continually updated, they are never out-of-date (as long as they have a good team of developers and users behind them).  Adobe, Autodesk, and many other major software firms have noticed this fact and are currently transitioning to web-based (or web-enabled) platforms.
 
 Because of this, we have decided to use the web-browser -- specifically, Google Chrome -- as the container for this project.  Because we have committed to a web-app, we then have also committed to ```JavaScript``` being the base language and logical framework.
 
