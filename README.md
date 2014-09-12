@@ -1,8 +1,8 @@
-# Jalebi.io
+![Jalebi.io](jalebi.png)
+
+---
 
 Web-based explorations in CAD, CAM, and Machine Control
-
-![Jalebi.io](jalebi.png)  
 
 *Main site to come soon.*
 

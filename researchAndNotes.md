@@ -1,4 +1,4 @@
-#InterFabs Research :poop:
+# Jalebi.io Research :poop:
 
 ----
 
@@ -35,7 +35,7 @@ Computer[hardware]-based/focused
 * [PyCAM](http://pycam.sourceforge.net/)
 * [LinuxCNC](http://linuxcnc.org/)
 
-##General Referances
+##General References
 
 ###Papers
 * [Hierarchical Volumetric Object Representations for Digital Fabrication Workﬂows](http://cba.mit.edu/docs/theses/13.05.Keeter.pdf)
