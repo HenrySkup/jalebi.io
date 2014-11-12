@@ -9,15 +9,15 @@ Please make any formatting and/or content changes.
 ----
 ##Languages & Libraries
 
-###Programming Libraries###
+###Programming/CAD/MC Libraries###
 * [WebConnect](http://webconnect.io/) :: browser to hardware
 * [Fab Modules](http://kokompe.cba.mit.edu/) :: also a GUI, but very Python flavored
 * [RML :: Roland Machine Language](http://mlab.taik.fi/paja/wp-content/uploads/2011/01/RML1_Command_GuideENVer100.pdf)
-
+* [OpenShopBot](http://www.opensbp.com/)
 
 ##Previous/Current Apps & projects
 
-###gCode Apps###
+###gCode/CAM Apps###
 These links cover tools, projects, etc. that have produced packages to visualize, simulate, or produce gcode.
 
 Browser-Based/Focused
@@ -42,8 +42,11 @@ Computer[hardware]-based/focused
 * [Heterogeneous Solids: Possible Representation Schemes](http://www.clemson.edu/ces/credo/papers/postscript/solidrep.pdf)
 * [XML Representation and Process Algorithm for Layered Manufacturing of Heterogeneous Objects](http://edge.rit.edu/content/P10551/public/SFF/SFF%202002%20Proceedings/2002%20SFF%20Papers/29-Lau.pdf) :: "forget gcode:useXML"??? but i guess structurally it works? but really???
 
+###Geometric Representations
+* [NURBS](http://en.wikipedia.org/wiki/Non-uniform_rational_B-spline)
 
 ###Take a look (I have no clue how to categorize it)
+* [virtual machine](http://web.mit.edu/imoyer/www/portfolio/vm/)
 * [list of things](http://replicat.org/generators)
 * [Center for Bits and Atoms](http://cba.mit.edu/)
 * [Machines that Make Machines](http://mtm.cba.mit.edu/)
@@ -58,3 +61,6 @@ https://github.com/D1plo1d/CadCanvas
 http://www.pearltrees.com/objectifmars/cad-browser-webgl/id4879261
 http://blackjk3.github.io/threefab/
 http://shapesmith.net/
+http://evanw.github.io/csg.js/
+[Fab Modules (JavaScript)](http://mod.cba.mit.edu/mods.html)
+
